@@ -1,0 +1,54 @@
+html {
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 320px;
+}
+
+.form-wrapper__title {
+  margin: 0 0 1rem 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+}
+
+.form #cityInput {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.form #citySubmit {
+  padding: 0.5rem;
+  background: #111;
+  color: white;
+  font-size: 1rem;
+  border-color: #111;
+  transition: 0.3s ease all;
+  border-radius: 4px;
+}
+
+.form #citySubmit:hover {
+  opacity: 0.7;
+}
