@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>My Weather App</title>
-  </head>
-  <body>
-    <form action="/" method="post">
-      <label for="cityInput">City Name: </label>
-      <input id="cityInput" type="text" name="cityName" />
-      <button type="submit">Go</button>
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-wrapper">
+      <h1 class="form-wrapper__title">My Weather App</h1>
+      <form action="/" method="post" class="form">
+        <label for="cityInput">City Name</label>
+        <input id="cityInput" type="text" name="cityName" />
+        <button type="submit" id="citySubmit">Get Temperature</button>
+      </form>
+    </div>
+  </div>
+</body>
+
 </html>
